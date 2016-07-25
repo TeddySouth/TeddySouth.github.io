@@ -47,6 +47,8 @@ body {
 
 .about-img {
 	margin: 50px;
+	height: 50;
+	width: 50;
 }
 
 .about-body h2  {
