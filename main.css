@@ -44,6 +44,11 @@ body {
 	margin-bottom: 0px;
 }
 
+
+.about-img {
+	margin: 50px;
+}
+
 .about-body h2  {
 	font-size: 42px;
 	text-transform: uppercase;
@@ -52,13 +57,11 @@ body {
 .about-body p1 {
 	font-weight: bold;
 	font-family: 'Georgia';
-
 }
 
 .about-body {
 	font-size: 18px;
 	margin: 50px;
-
 }
 
 .main-footer {
