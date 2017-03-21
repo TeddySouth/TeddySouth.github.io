@@ -1,13 +1,17 @@
+
 body {
 	color: #000000;
 	text-align: center;
-	font-family: 'Helvetica';
+	font-family: 'Open Sans';
 }
+
+
+/*Main*/
+
 
 .main-nav {
 	overflow: hidden;
-	background-color: #1a1a1a;
-	padding: 10px;
+	background-color: #54b4ff;
 }
 
 .main-nav li {
@@ -24,25 +28,48 @@ body {
 }
 
 .main-nav li a:hover {
-    background-color: #000;
+    background-color: #008fff;
 }
 
 .main-title h1 {
-	font-size: 150px;
+	color: #54b4ff;
+	font-size: 80px;
 	font-weight: bold;
-	font-family: 'Georgia';
-	margin-top: 300px;
-	margin-bottom: 300px;
+	font-family: 'Chewy', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .other-title h1 {
 	font-size: 100px;
 	font-weight: bold;
-	font-family: 'Georgia';
+	font-family: 'Helvetica';
 	text-transform: uppercase;
 	margin-top: 25px;
 	margin-bottom: 0px;
 }
+
+.main-body p {
+	color: #54b4ff;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans';
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.main-body p1 {
+	color: #54b4ff;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Chewy';
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+
+/*About*/
+
 
 .about-img img {
 	height: 500px;
@@ -57,7 +84,7 @@ body {
 
 .about-body p1 {
 	font-weight: bold;
-	font-family: 'Georgia';
+	font-family: 'Helvetica';
 }
 
 .about-body {
