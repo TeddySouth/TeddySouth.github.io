@@ -60,6 +60,15 @@ body {
 
 .main-body p1 {
 	color: #54b4ff;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Chewy';
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.main-body p2 {
+	color: #54b4ff;
 	font-size: 30px;
 	font-weight: bold;
 	font-family: 'Chewy';
