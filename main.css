@@ -49,16 +49,20 @@ body {
 	margin-bottom: 0px;
 }
 
-.main-body p {
+.main-body {
+	width: 600px;
 	color: #54b4ff;
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Open Sans';
+
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
-.main-body p1 {
+.main-tagline p1 {
 	color: #54b4ff;
 	font-size: 50px;
 	font-weight: bold;
@@ -67,14 +71,16 @@ body {
 	margin-bottom: 50px;
 }
 
-.main-body p2 {
+.main-tagline p2 {
 	color: #54b4ff;
 	font-size: 30px;
-	font-weight: bold;
+	font-style: italic;
 	font-family: 'Chewy';
 	margin-top: 100px;
 	margin-bottom: 50px;
 }
+
+/*Findus*/
 
 .findus-body p {
 	color: #54b4ff;
@@ -92,21 +98,27 @@ body {
 	margin-bottom: 50px;
 }
 
-.contact-body {
-	color: #54b4ff;
+/*Contact*/
+
+.contact-body table {
+	background-color: #54b4ff;
+	padding: 10px;
+	resize: none;
+}
+
+.twitter-timeline {
+	background-color: #54b4ff;
+	padding: 10px;
 }
 
 .main-footer {
 	color: #9f9f9f;
+	background-color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
 		font-size: 10px;
 		font-weight: bold;
 }
-
-/*Findus*/
-
-
 
 }

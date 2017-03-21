@@ -15,48 +15,73 @@
           <li><a href="about-main.html">About</a></li>
 		</ul>
 </div>
-
 	<div class='main-title'>
 		<h1>
 		Contact us:
 		</h1>
 		</div>
 
+
 		<div class='contact-body'>
 
-      <p>
-        For general inquiries:
-  		</p>
-  		<h2>
-  			info@percycentre.org.uk
-  		</h2>
-
-
-      <p>
-        For bookings and room hire:
-  		</p>
-  		<h2>
-  			administrator@percycentre.org.uk
-  		</h2>
-
-      <p>
-        For website inquiries:
-      </p>
-      <h2>
-        teddy@percycentre.org.uk
-      </h2>
-
-      <p>
-        or give us a ring on:
-      </p>
-      <h2>
-        01223 423014
-
+			<form name="contactform" method="post" action="send_form_email.php">
+				<table width="500px">
+					<tr>
+		 				<td valign="top">
+		  				<label for="first_name">First Name *</label>
+	 					</td>
+		 				<td valign="top">
+			  			<input  type="text" name="first_name" maxlength="50" size="30">
+		 				</td>
+					</tr>
+					<tr>
+		 				<td valign="top">
+		  				<label for="last_name">Last Name *</label>
+		 				</td>
+		 				<td valign="top">
+		  				<input  type="text" name="last_name" maxlength="50" size="30">
+		 				</td>
+					</tr>
+					<tr>
+		 				<td valign="top">
+		  				<label for="email">Email Address *</label>
+		 				</td>
+		 				<td valign="top">
+		  				<input  type="text" name="email" maxlength="80" size="30">
+		 				</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<label for="telephone">Telephone Number</label>
+						</td>
+						<td valign="top">
+							<input  type="text" name="telephone" maxlength="30" size="30">
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<label for="comments">Your message *</label>
+						</td>
+						<div class="text-input">
+						<td valign="top">
+							<textarea  name="comments" maxlength="1000" cols="26" rows="8"></textarea>
+						</td>
+						</div>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center">
+							<input type="submit" value="Submit">
+						</td>
+					</tr>
+					</table>
+				</form>
 		</div>
+
+		<a class="twitter-timeline" data-width="500" data-height="500" data-link-color="#54b4ff" href="https://twitter.com/PercyCentre">Tweets by PercyCentre</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 		<div class='main-footer'>
 			<p>
-				&copy; Copyright Teddy South 2017
+				&copy; 2010<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script>, Percy Community Centre.
 			</p>
 		</div>
 
