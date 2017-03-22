@@ -12,8 +12,10 @@ body {
 
 ul {
     list-style-type: none;
+		font-size: 20px;
     margin: 0;
-    padding: 0;
+    padding-left: 10px;
+		padding-right: 10px;
     overflow: hidden;
     background-color: #54b4ff;
 }
@@ -67,7 +69,6 @@ li.dropdown {
 
 /* NOTE: Home Page */
 
-
 .main-title h1 {
 	color: #54b4ff;
 	font-size: 80px;
@@ -92,7 +93,6 @@ li.dropdown {
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Open Sans';
-
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -117,7 +117,8 @@ li.dropdown {
 	margin-bottom: 50px;
 }
 
-/*Findus*/
+
+/* NOTE: Find Us */
 
 .findus-body p {
 	color: #54b4ff;
@@ -136,7 +137,8 @@ li.dropdown {
 	margin-bottom: 50px;
 }
 
-/*Contact*/
+
+/* NOTE: Contact Form */
 
 input[type=text], select, textarea {
     width: 90%;
@@ -174,6 +176,21 @@ input[type=submit]:hover {
     padding: 10px;
 		margin-bottom: 25px;
 }
+
+
+/* NOTE: What's on */
+.twitter-timeline {
+	float: right;
+	margin-right: 40px;
+}
+
+.facebook-feed {
+	float: left;
+	margin-left: 20px;
+}
+
+
+/* NOTE: Copyright Notice */
 
 .main-footer {
 	color: #9f9f9f;
