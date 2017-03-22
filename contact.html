@@ -12,7 +12,7 @@
 			<li><a href="index.html">Home</a></li>
 				<li><a href="findus.html">Find Us</a></li>
 					<li><a href="contact.html">Contact</a></li>
-          <li><a href="about-main.html">About</a></li>
+          	<li><a href="about-main.html">About</a></li>
 		</ul>
 </div>
 	<div class='main-title'>
@@ -22,62 +22,20 @@
 		</div>
 
 
-		<div class='contact-body'>
+		<div class="contact-form">
+	  <form action="/contactform.php">
 
-			<form name="contactform" method="post" action="send_form_email.php">
-				<table width="500px">
-					<tr>
-		 				<td valign="top">
-		  				<label for="first_name">First Name *</label>
-	 					</td>
-		 				<td valign="top">
-			  			<input  type="text" name="first_name" maxlength="50" size="30">
-		 				</td>
-					</tr>
-					<tr>
-		 				<td valign="top">
-		  				<label for="last_name">Last Name *</label>
-		 				</td>
-		 				<td valign="top">
-		  				<input  type="text" name="last_name" maxlength="50" size="30">
-		 				</td>
-					</tr>
-					<tr>
-		 				<td valign="top">
-		  				<label for="email">Email Address *</label>
-		 				</td>
-		 				<td valign="top">
-		  				<input  type="text" name="email" maxlength="80" size="30">
-		 				</td>
-					</tr>
-					<tr>
-						<td valign="top">
-							<label for="telephone">Telephone Number</label>
-						</td>
-						<td valign="top">
-							<input  type="text" name="telephone" maxlength="30" size="30">
-						</td>
-					</tr>
-					<tr>
-						<td valign="top">
-							<label for="comments">Your message *</label>
-						</td>
-						<div class="text-input">
-						<td valign="top">
-							<textarea  name="comments" maxlength="1000" cols="26" rows="8"></textarea>
-						</td>
-						</div>
-					</tr>
-					<tr>
-						<td colspan="2" style="text-align:center">
-							<input type="submit" value="Submit">
-						</td>
-					</tr>
-					</table>
-				</form>
-		</div>
+	    <input type="text" id="fname" name="first_name" placeholder="First name">
+	    <input type="text" id="lname" name="last_name" placeholder="Last name">
+	    <input type="text" id="email" name="email" placeholder="Email address">
+			<input type="text" id="telephone" name="telephone" placeholder="Phone Number">
 
-		<a class="twitter-timeline" data-width="500" data-height="500" data-link-color="#54b4ff" href="https://twitter.com/PercyCentre">Tweets by PercyCentre</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	    <textarea id="comments" name="comments" placeholder="Your message" style="height:100px"></textarea>
+			</br>
+	    <input type="submit" value="Submit">
+
+	  </form>
+	</div>
 
 		<div class='main-footer'>
 			<p>
