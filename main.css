@@ -179,14 +179,8 @@ input[type=submit]:hover {
 
 
 /* NOTE: What's on */
-.twitter-timeline {
-	float: right;
-	margin-right: 60px;
-}
-
-.facebook-feed {
-	float: left;
-	margin-left: 20px;
+.whatson-widgets {
+	width: auto;
 }
 
 
