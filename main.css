@@ -105,7 +105,7 @@ li.dropdown {
 	font-weight: bold;
 	font-family: 'Chewy';
 	margin-top: 100px;
-	margin-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 .main-tagline p2 {
@@ -114,7 +114,7 @@ li.dropdown {
 	font-style: italic;
 	font-family: 'Chewy';
 	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 
@@ -134,7 +134,7 @@ li.dropdown {
 	background-color: #54b4ff;
 	border-radius: 4px;
 	padding: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 
@@ -174,13 +174,14 @@ input[type=submit]:hover {
     background-color: #54b4ff;
 		width: 500px;
     padding: 10px;
-		margin-bottom: 25px;
+		margin-bottom: 100px;
 }
 
 
 /* NOTE: What's on */
 .whatson-widgets {
 	width: auto;
+	margin-bottom: 100px;
 }
 
 
