@@ -2,7 +2,7 @@
 /* NOTE: General Body */
 
 body {
-	color: #54b4ff;
+	color: #be822b;
 	text-align: center;
 	font-family: 'Helvetica';
 }
@@ -13,11 +13,11 @@ body {
 ul {
     list-style-type: none;
 		font-size: 20px;
-    margin: 0;
+		font-family: 'Varela Round';
     padding-left: 10px;
 		padding-right: 10px;
     overflow: hidden;
-    background-color: #54b4ff;
+    background-color: #be822b;
 }
 
 li {
@@ -34,7 +34,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #008fff;
+    background-color: #eccf8a;
 }
 
 li.dropdown {
@@ -45,7 +45,7 @@ li.dropdown {
     display: none;
     position: absolute;
 		font-size: 16px;
-		background-color: #008fff;
+		background-color: #be822b;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -59,19 +59,19 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {
-	background-color: #0078d6;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 
 /* NOTE: Home Page */
 
+.site-title {
+	color: #be822b;
+	font-size: 100px;
+	font-family: 'Fredoka One';
+	margin-top: 325px;
+	margin-bottom: 50px;
+}
+
 .main-title {
-	color: #54b4ff;
+	color: #be822b;
 	font-size: 75px;
 	font-family: 'Fredoka One';
 	margin-top: 50px;
@@ -80,7 +80,7 @@ li.dropdown {
 
 .main-body {
 	width: 600px;
-	color: #54b4ff;
+	color: #be822b;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Open Sans';
@@ -89,41 +89,6 @@ li.dropdown {
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
-
-.main-tagline {
-	color: #54b4ff;
-	font-size: 50px;
-	font-family: 'Fredoka One';
-	margin-top: 50px;
-}
-
-.sub-tagline {
-	color: #54b4ff;
-	font-size: 30px;
-	font-family: 'Fredoka One';
-	padding-bottom: 100px;
-}
-
-
-/* NOTE: Find Us */
-
-.findus-body p {
-	color: #54b4ff;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: 'Open Sans';
-	margin-top: 50px;
-	margin-bottom: 20px;
-}
-
-.map-widget iframe
-{
-	background-color: #54b4ff;
-	border-radius: 4px;
-	padding: 10px;
-	margin-bottom: 100px;
-}
-
 
 /* NOTE: Contact Form */
 
@@ -144,7 +109,7 @@ input[type=submit] {
 		font-family: 'Open Sans';
 		font-size: 20px;
 		text-transform: uppercase;
-    background-color: #008fff;
+    background-color: #be822b;
     padding: 10px 20px;
 		border: none;
     border-radius: 8px;
@@ -152,7 +117,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #0078d6;
+    background-color: #be822b;
 }
 
 input[type=submit]:active {
@@ -163,17 +128,10 @@ input[type=submit]:active {
 		display: inline-block;
 		text-align: center;
     border-radius: 20px;
-    background-color: #54b4ff;
+    background-color: #be822b;
 		width: 500px;
     padding: 15px;
 		margin-bottom: 100px;
-}
-
-
-/* NOTE: What's on */
-.whatson-widgets {
-	width: auto;
-	margin-bottom: 100px;
 }
 
 
