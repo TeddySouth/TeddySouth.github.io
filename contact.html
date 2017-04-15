@@ -1,73 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="main.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Work+Sans|PT+Sans|Varela+Round' rel='stylesheet'>
+<title>TESOU</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='main.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<style>
+.bar,body,h1,h2,h3,h4,h5,h6,button {font-family: 'Lato', sans-serif}
+h1 {font-family: 'Gentium Book Basic', sans-serif}
+</style>
 
-		<!-- ****** faviconit.com favicons ****** -->
-	<link rel="shortcut icon" href="/assets/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="/assets/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="/assets/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="/assets/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
-	<link rel="apple-touch-icon" href="/assets/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="/assets/favicon-144.png">
-	<meta name="msapplication-config" content="/browserconfig.xml">
+<div class='favicons'>
 	<!-- ****** faviconit.com favicons ****** -->
+  <link rel='shortcut icon' href='/assets/favicon.ico'>
+  <link rel='icon' sizes='16x16 32x32 64x64' href='/assets/favicon.ico'>
+  <link rel='icon' type='image/png' sizes='196x196' href='/assets/favicon-192.png'>
+  <link rel='icon' type='image/png' sizes='160x160' href='/assets/favicon-160.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/assets/favicon-96.png'>
+  <link rel='icon' type='image/png' sizes='64x64' href='/assets/favicon-64.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='/assets/favicon-32.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/assets/favicon-16.png'>
+  <link rel='apple-touch-icon' href='/assets/favicon-57.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='/assets/favicon-114.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='/assets/favicon-72.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='/assets/favicon-144.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='/assets/favicon-60.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='/assets/favicon-120.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='/assets/favicon-76.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='/assets/favicon-152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='/assets/favicon-180.png'>
+  <meta name='msapplication-TileColor' content='#FFFFFF'>
+  <meta name='msapplication-TileImage' content='/assets/favicon-144.png'>
+  <meta name='msapplication-config' content='/browserconfig.xml'>
+  <!-- ****** faviconit.com favicons ****** -->
+</div>
 
-	<title>Contact</title>
-</head>
+<!-- Navbar -->
+<div class='top'>
+ <div class='bar  black card-2 large left-align'>
+    <a href='about.html' class='bar-item button hover-white hide-small'><i class='fa fa-home'></i> Home</a>
+       <a class='bar-item button hide-medium hide-large hover-white' href='javascript:void(0);' onclick='openNav()'><i class='fa fa-bars'></i></a>
+    <a href='about.html' class='bar-item button hide-small hover-white'>About</a>
+    <a href='contact.html' class='bar-item button hide-small hover-white'>Contact</a>
+    <div class='dropdown-hover hide-small'>
+    <a href='#' class='button hover-white'>Comics <i class='fa fa-caret-down'></i></a>
+    <div class='dropdown-content card-4 bar-block'>
+      <a href='morte-in-famiglia.html' class='bar-item button medium'>Morte In Famiglia</a>
+    </div>
+  </div>
+ </div>
 
-<body>
+  <!-- Navbar on small screens -->
+  <div id='navMicro' class='bar-block  black hide hide-large hide-medium'>
+    <a href='about.html' class='bar-item button large hover-white'><i class='fa fa-home'></i> Home</a>
+    <a href='about.html' class='bar-item button hover-white'>About</a>
+    <a href='contact.html' class='bar-item button hover-white'>Contact</a>
+    <a href='morte-in-famiglia.html' class='bar-item button hover-white'>Morte In Famiglia</a>
+  </div>
+</div>
 
-	<div class='main-nav'>
-		<ul>
-			<li><a href='index.html'>Home</a></li>
-			<li><a href='about.html'>About</a></li>
-			<li><a href='portfolio.html'>Portfolio</a></li>
-			<li><a href='contact.html'>Contact</a></li>
-			<li><a href='links.html'>Links</a></li>
-		</ul>
-	</div>
+<!-- Header -->
+<header class='container black center' style='padding:128px 16px'>
+  <h1 class='margin jumbo'>Teddy South</h1>
+  <p class='xlarge'>Graphic Artist | Illustrator | Designer</p>
+</header>
 
+<!-- First Grid -->
+<div class='row-padding padding-64 container'>
+  <div class='content center'>
+    <div class='center'>
 
-	<div class='main-title'>
-		Contact us
-	</div>
+      <form action='/action_page.php' class='container card-4 light-grey text-black margin'>
 
+<div class='row section'>
+  <div class='col' style='width:50px'><i class='xxlarge fa fa-user'></i></div>
+    <div class='rest'>
+      <input class='input border round-large' name='first' type='text' placeholder='First Name'>
+    </div>
+</div>
 
-		<div class="contact-form">
-	  <form action="contactform.php">
+<div class='row section'>
+  <div class='col' style='width:50px'><i class='xxlarge fa fa-user'></i></div>
+    <div class='rest'>
+      <input class='input border round-large' name='last' type='text' placeholder='Last Name'>
+    </div>
+</div>
 
-	    <input type="text" id="fname" name="first_name" placeholder="First name">
-	    <input type="text" id="lname" name="last_name" placeholder="Last name">
-	    <input type="text" id="email" name="email" placeholder="Email address">
-			<input type="text" id="telephone" name="telephone" placeholder="Phone Number">
+<div class='row section'>
+  <div class='col' style='width:50px'><i class='xxlarge fa fa-envelope-o'></i></div>
+    <div class='rest'>
+      <input class='input border round-large' name='email' type='text' placeholder='Email'>
+    </div>
+</div>
 
-	    <textarea id="comments" name="comments" placeholder="Your message" style="height:100px"></textarea>
-			</br>
-	    <input type="submit" value="Send">
+<div class='row section'>
+  <div class='col' style='width:50px'><i class='xxlarge fa fa-phone'></i></div>
+    <div class='rest'>
+      <input class='input border round-large' name='phone' type='text' placeholder='Phone'>
+    </div>
+</div>
 
-	  </form>
-	</div>
+<div class='row section'>
+  <div class='col' style='width:50px'><i class='xxlarge fa fa-pencil'></i></div>
+    <div class='rest'>
+      <textarea class='input border round-large' name='message' type='text' rows='8' placeholder='Message'></textarea>
+    </div>
+</div>
 
-	<div class='main-footer'>
-			&copy; 2016<script>new Date().getFullYear()>2016&&document.write('-'+new Date().getFullYear());</script>, Percy Community Centre.
-			<br>
-			Percy Community Centre, New King Street, Bath, Somerset, BA1 2BN. Tel. 01225 423014. Charity no. 1127986, Company no. 6769345.
-	</div>
+<button class='button round-large section black large padding'>Submit</button>
+
+</form>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class='container align-bottom card-4 black padding-64 center'>
+  <div class='xxlarge padding-32'>
+    <i class='fa fa-facebook-official hover-opacity'></i>
+    <i class='fa fa-twitter hover-opacity'></i>
+    <i class='fa fa-instagram hover-opacity'></i>
+ </div>
+
+ <p class='small'>
+ &copy; 2016<script>new Date().getFullYear()>2016&&document.write('-'+new Date().getFullYear());</script>, Teddy South, TESOU.
+ </p>
+</footer>
+
+<script>
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById('navMicro');
+    if (x.className.indexOf('show') == -1) {
+        x.className += ' show';
+    } else {
+        x.className = x.className.replace(' show', '');
+    }
+}
+</script>
 
 </body>
 </html>
